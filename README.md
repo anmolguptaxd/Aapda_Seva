@@ -38,8 +38,8 @@ Thanks goes to these wonderful people:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="20%"><a href="www.linkedin.com/in/arjun-kharade-526577229"><br />
-      <sub><b>Arjun Kharade</title="Ideas, Planning, & Feedback">🤔</a> </td>
+      <td align="center" valign="top" width="20%"><a href="www.linkedin.com/in/arjun-kharade-526577229"></a> <br />
+      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/co00co"><img src="https://avatars3.githubusercontent.com/u/11724652?v=4?s=100" width="100px;" alt="co00co"/><br /><sub><b>Bhoomi Jain</b></sub></a><br /><a href="#ideas-co00co" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eduayme/RescueApp/commits?author=co00co" title="Documentation">📖</a> <a href="https://github.com/eduayme/RescueApp/issues?q=author%3Aco00co" title="Bug reports">🐛</a> <a href="https://github.com/eduayme/RescueApp/commits?author=co00co" title="Code">💻</a></td>
       <td align="center" valign="top" width="20%"><a href="https://github.com/EnricSalaPujolar"><img src="https://avatars3.githubusercontent.com/u/56341832?v=4?s=100" width="100px;" alt="EnricSalaPujolar"/><br /><sub><b>Anmol Gupta</b></sub></a><br /><a href="#ideas-EnricSalaPujolar" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/eduayme/RescueApp/commits?author=EnricSalaPujolar" title="Documentation">📖</a> <a href="#design-EnricSalaPujolar" title="Design">🎨</a></td>
       <td align="center" valign="top" width="20%"><a href="https://joelibaceta.github.io"><img src="https://avatars1.githubusercontent.com/u/864790?v=4?s=100" width="100px;" alt="Joel Ibaceta"/><br /><sub><b>Sujal Jain</b></sub></a><br /><a href="#translation-joelibaceta" title="Translation">🌍</a></td>
