@@ -38,17 +38,17 @@ Thanks goes to these wonderful people:
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="20%"><br />
+      <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td>      
     </tr>
     
