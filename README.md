@@ -39,7 +39,7 @@ Thanks goes to these wonderful people:
   <tbody>
     <tr>
       <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F18930587-linkedin-logo-png-linkedin-icon-transparent-png&psig=AOvVaw1p52HR-CiLIPQZ_021lAj6&ust=1695675091220000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMDe0IyQxIEDFQAAAAAdAAAAABAE" alt="Aapda Seva"></a> </td> 
+      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/"><img src="./app/src/main/res/drawable/linkedin-icon.png" alt="Aapda Seva"></a> </td> 
       <td align="center" valign="top" width="16%"><br />
       <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
       <td align="center" valign="top" width="16%"><br />
