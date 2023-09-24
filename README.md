@@ -1,5 +1,5 @@
 <p align="center">png
-<img src="D:\Aapda_Seva\Aapda_Seva100\AapdaSeva\app\src\main\res\drawable\aapdaseva.png" alt="Aapda Seva">
+<img src="./app/src/main/res/drawable/aapdaseva.png" alt="Aapda Seva">
 </p>
 <!-- <p align="center">
 <a href="https://github.styleci.io/repos/184948124"><img src="https://github.styleci.io/repos/184948124/shield?style=flat" alt="StyleCI"></a>
