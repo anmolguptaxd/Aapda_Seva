@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pri_back"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvRegHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="#FF5722"
+        android:text="Agency Registration"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp" />
+
+
+    <!-- Wrap the content (excluding Agency Registration and Register Button) in a CardView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvRegHeading"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- ScrollView -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Agency Name -->
+                    <EditText
+                        android:id="@+id/editTextAgencyName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Agency Name"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:minHeight="70dp" />
+
+                    <!-- Contact Person -->
+                    <EditText
+                        android:id="@+id/editTextContactPerson"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Agency Administrator"
+                        android:inputType="textPersonName"
+                        android:padding="8dp"
+                        android:minHeight="70dp" />
+
+                    <!-- Email -->
+                    <EditText
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:padding="8dp"
+                        android:minHeight="60dp" />
+
+                    <!-- Phone Number -->
+                    <EditText
+                        android:id="@+id/editTextPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Phone Number"
+                        android:inputType="phone"
+                        android:padding="8dp"
+                        android:minHeight="40dp" />
+
+                    <!-- Address -->
+                    <EditText
+                        android:id="@+id/editTextAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Address"
+                        android:inputType="textPostalAddress"
+                        android:padding="8dp"
+                        android:minHeight="70dp" />
+
+                    <!-- Location Access Button -->
+
+                    <!-- Area of Expertise -->
+                    <ImageButton
+                        android:id="@+id/locationAccessButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="15dp"
+                        android:background="@color/white"
+                        android:src="@drawable/baseline_gps_fixed_24" />
+
+                    <Spinner
+                        android:id="@+id/editTextAreaOfExpertise"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Area of Expertise"
+                        android:inputType="text"
+                        android:padding="8dp"
+                        android:minHeight="60dp" />
+
+                    <!-- Password -->
+                    <EditText
+                        android:id="@+id/editTextPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:padding="8dp"
+                        android:minHeight="60dp" />
+
+                    <!-- Register Button -->
+                    <Button
+                        android:id="@+id/buttonRegister"
+                        android:layout_width="221dp"
+                        android:layout_height="72dp"
+                        android:layout_below="@id/cardView"
+                        android:layout_centerHorizontal="true"
+                        android:background="#007ACC"
+                        android:text="Register"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

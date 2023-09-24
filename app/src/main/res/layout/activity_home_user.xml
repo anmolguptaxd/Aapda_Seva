@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="@color/pri_back">
+
+    <!-- HOME Heading -->
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@color/appheader"
+        android:gravity="center"
+        android:text="AAPDA SEVA"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Wrap the ScrollView to ensure only the content below it scrolls -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textViewHeader">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <!-- Replace with your actual image resource -->
+
+            <!-- Buttons layout -->
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="313dp"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/aniLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <!-- Space for images for emergency drills -->
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Emergency Drills"
+                        android:src="@drawable/earthquick" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:contentDescription="Emergency Drills"
+                        android:src="@drawable/img"
+                        android:layout_weight="1"/>
+
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="294dp"
+                android:layout_weight="1"
+                android:columnCount="2"
+                android:padding="16dp"
+                android:rowCount="3">
+
+                <!-- List of Agencies Button -->
+                <Button
+                    android:id="@+id/btnAgencies"
+                    android:layout_width="40dp"
+                    android:layout_height="75dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:background="@color/button"
+                    android:inputType="textMultiLine"
+                    android:text="List of Agencies"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <!-- Send Help Request Button -->
+                <Button
+                    android:id="@+id/btnHelpRequest"
+                    android:layout_width="40dp"
+                    android:layout_height="75dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:background="@color/button"
+                    android:inputType="textMultiLine"
+                    android:text="Send Help Request"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <!-- Donation Button -->
+                <Button
+                    android:id="@+id/btnDonation"
+                    android:layout_width="40dp"
+                    android:layout_height="75dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:background="@color/button"
+                    android:inputType="textMultiLine"
+                    android:text="Donation"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <!-- Offline Access Button -->
+                <Button
+                    android:id="@+id/btnOfflineAccess"
+                    android:layout_width="40dp"
+                    android:layout_height="75dp"
+                    android:layout_columnWeight="1"
+                    android:layout_margin="8dp"
+                    android:background="@color/button"
+                    android:inputType="textMultiLine"
+                    android:text="OFFLINE ACCESS"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+            </GridLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/appheader"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageButton
+                android:id="@+id/btnProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_person_24">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btnMaps"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/baseline_location_on_24">
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/btnLogOutUser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/logout">
+
+            </ImageButton>
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+</RelativeLayout>

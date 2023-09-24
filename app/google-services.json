@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222454134565",
+    "project_id": "aapda-seva",
+    "storage_bucket": "aapda-seva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222454134565:android:43c2e439eee9d9537fcccc",
+        "android_client_info": {
+          "package_name": "com.example.aapdaseva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVBFowAkr4Sf0smmUjbqOcQC9y8WF9eQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

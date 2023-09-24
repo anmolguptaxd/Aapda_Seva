@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <!-- AppBarLayout with Toolbar for the profile screen -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/appheader"
+            android:gravity="center"
+            app:title="User Profile"
+            app:titleTextColor="@android:color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- Profile Picture and User's Name -->
+
+    <!-- Username -->
+
+    <ImageView
+        android:id="@+id/profilePicture"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/profileuser"
+        tools:ignore="NotSibling" />
+
+    <TextView
+        android:id="@+id/userNameRight"
+        android:layout_width="163dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/profilePicture"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginEnd="59dp"
+        android:text="John Doe"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userNameRight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Username - johndoe"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Email - john.doe@example.com"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Phone Number - 1234567890"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <!-- Gender -->
+    <TextView
+        android:id="@+id/tvGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Gender - Male"
+        android:textSize="18sp"
+        android:textColor="@color/black" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvGender"
+        android:layout_marginTop="40dp"
+        android:background="@color/button"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

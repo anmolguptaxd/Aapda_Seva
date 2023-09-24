@@ -1,0 +1,56 @@
+<!--<resources>-->
+
+<!--    &lt;!&ndash; Base application theme &ndash;&gt;-->
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; App Bar Overlay Style &ndash;&gt;-->
+<!--    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />-->
+
+<!--    &lt;!&ndash; Popup Overlay Style &ndash;&gt;-->
+<!--    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+<!--    &lt;!&ndash; Toolbar Text Style &ndash;&gt;-->
+<!--    <style name="ToolbarTextStyle">-->
+<!--        <item name="android:textSize">18sp</item>-->
+<!--        <item name="android:textStyle">bold</item>-->
+<!--        <item name="android:textColor">@color/black</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Filter Spinner Style &ndash;&gt;-->
+<!--    <style name="SpinnerStyle">-->
+<!--        <item name="android:layout_width">0dp</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:layout_weight">1</item>-->
+<!--        <item name="android:layout_marginEnd">8dp</item>-->
+<!--        <item name="android:hint">Filter by</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Floating Action Button Style &ndash;&gt;-->
+<!--    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">-->
+<!--        <item name="android:layout_width">wrap_content</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; Add your custom colors here &ndash;&gt;-->
+<!--    <color name="colorPrimary">#3F51B5</color>-->
+<!--    <color name="colorPrimaryDark">#303F9F</color>-->
+<!--    <color name="colorAccent">#FF4081</color>-->
+<!--    <color name="app_header_background">#F3BD6D</color>-->
+<!--    <color name="white">#FFFFFF</color>-->
+<!--    <color name="black">#000000</color>-->
+
+<!--    &lt;!&ndash; Add your custom drawables here &ndash;&gt;-->
+<!--    &lt;!&ndash; Example:-->
+<!--    <drawable name="ic_profile">@drawable/ic_profile</drawable>-->
+<!--    <drawable name="ic_location">@drawable/ic_location</drawable>-->
+<!--    <drawable name="ic_notifications">@drawable/ic_notifications</drawable>-->
+<!--    <drawable name="ic_logout">@drawable/ic_logout</drawable>-->
+<!--    &ndash;&gt;-->
+<!--</resources>-->
+<resources>
+
+</resources>
