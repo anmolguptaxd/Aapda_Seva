@@ -1,63 +1,78 @@
-<p align="center">
-<img src="./app/src/main/res/drawable/aapdaseva.png" alt="Aapda Seva">
-</p>
-<!-- <p align="center">
-<a href="https://github.styleci.io/repos/184948124"><img src="https://github.styleci.io/repos/184948124/shield?style=flat" alt="StyleCI"></a>
-<a href="https://travis-ci.org/eduayme/RescueApp"><img src="https://api.travis-ci.com/eduayme/RescueApp.svg?branch=master" alt="Build Status"></a>
-<a href="https://github.com/eduayme/RescueApp/releases/tag/v1.3.2"><img src="https://img.shields.io/badge/version-v1.3.2-blue"></a>
-<a href="https://github.com/eduayme/RescueApp/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License"></a>
-</p> -->
+# AapDaSeva - A solution to PS 1440
 
-## About AapdaSeva
+AapDaSeva is a multi-purpose service hub that connects users with local agencies and service providers. Whether you need assistance, want to contact an agency, or connect with others, AapDaSeva has you covered.
 
-The solution consists of a centralized database and a mobile app featuring two portals: Agency and
-User. Agencies register, providing essential details like contact information, location, specialization
-and availability. Agencies can alert other agencies for assistance and collaborate via chat or call to
-better manage the emergency situation. Users seeking help can send requests to agencies based on
-disaster type, proximity and availability. An optional feature allows users to upload disaster pictures
-to help agencies assess the scale of the situation. The help request also includes the user's current
-location for easier reach. Even without internet access, help requests can be sent via call or SMS to a
-preset emergency number, connecting users to relevant agencies. Both portals include a map
-displaying nearby agencies, filtered by specialization and availability. Users can also opt to donate or
-volunteer.
+## Table of Contents
 
-## Documentation
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Firebase Configuration](#firebase-configuration)
+- [Usage](#usage)
+  - [User Portal](#user-portal)
+  - [Agency Portal](#agency-portal)
+  - [Real-time Chat](#real-time-chat)
+  - [Emergency SOS](#emergency-sos)
+- [Security and Privacy](#security-and-privacy)
 
-You can find all the documentation [in the wiki](https://github.com/Akharade1809/Aapda_Seva.git).
+## Features
 
-<!-- ## License
-The RescueApp is an open-source software licensed under the [GPL v3 license](https://opensource.org/licenses/GPL-3.0). -->
+- _User Authentication_: Secure user authentication using Firebase Authentication.
+- _User Profiles_: View and update user profiles with contact information.
+- _Agency Listing_: Browse and contact local agencies and service providers.
+- _Real-time Chat_: Communicate with agencies and other users via real-time chat.
+- _Emergency SOS_: Access emergency assistance with your GPS location.
+- _Data Security_: Data is encrypted and secured to protect user privacy.
+- _Multi-Platform_: Available on Android and iOS.
 
-## Contributors
+## Getting Started
 
-Thanks goes to these wonderful people:
+To get started with AapDaSeva, follow these steps:
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/"><img src="./app/src/main/res/drawable/linkedin-icon.png" alt="Aapda Seva"></a> </td> 
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td> 
-      <td align="center" valign="top" width="16%"><br />
-      <sub><b>Arjun Kharade</title="Ideas,Planning,&Feedback"></b></sub><br/><a href="https://www.linkedin.com/in/arjun-kharade-526577229/">LinkedIn</a> </td>      
-    </tr>
-    
-  </tbody>
-</table>
+1. Clone the repository:
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
+```bash
+ git clone https://github.com/yourusername/AapDaSeva.git
+ cd AapDaSeva
+## Firebase Configuration:
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+2. Create a Firebase project at https://console.firebase.google.com/.
+3. Configure the Firebase SDK with your project settings.
+4. Add your Firebase configuration file (google-services.json for Android) to the app directory.
+5. Build and run the app on your Android device or emulator.
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+## Usage
+
+## User Portal
+1. Register or log in as a user to access the user portal.
+2. Explore the list of agencies and service providers.
+3. View agency details, including contact information and area of expertise.
+4. Initiate contact with agencies or service providers.
+
+
+## Agency Portal
+1. Register or log in as an agency to access the agency portal.
+2. List your agency or service, including contact details and areas of expertise.
+3. Respond to inquiries and messages from users.
+4. Participate in real-time chats with users.
+
+
+## Real-time Chat
+1. Communicate with agencies or other users using the chat feature.
+2. Send and receive messages in real-time to discuss services or ask questions.
+3. Stay connected and receive instant responses.
+
+## Emergency SOS
+1. Use the SOS button in case of an emergency.
+2. Your GPS location is sent to the nearest agency or service provider.
+3. The agency can respond quickly to assist you.
+
+## Security and Privacy
+
+AapDaSeva takes security and privacy seriously. Here are some of the measures we've implemented:
+
+1. User data is encrypted and stored securely.
+2. Firebase Authentication ensures secure user login.
+3. Secure communication channels are used for chat and data transmission.
+4. Users have control over their data and can delete their accounts.
+5. Regular security audits and updates are performed to address vulnerabilities.
+```
