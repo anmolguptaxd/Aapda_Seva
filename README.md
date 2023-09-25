@@ -5,9 +5,6 @@ AapDaSeva is a multi-purpose service hub that connects users with local agencies
 ## Table of Contents
 
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Firebase Configuration](#firebase-configuration)
-- [Usage](#usage)
   - [User Portal](#user-portal)
   - [Agency Portal](#agency-portal)
   - [Real-time Chat](#real-time-chat)
@@ -22,23 +19,9 @@ AapDaSeva is a multi-purpose service hub that connects users with local agencies
 - _Real-time Chat_: Communicate with agencies and other users via real-time chat.
 - _Emergency SOS_: Access emergency assistance with your GPS location.
 - _Data Security_: Data is encrypted and secured to protect user privacy.
-- _Multi-Platform_: Available on Android and iOS.
+- _Multi-modes_: Nessaary information is availble to users even when there in no internet connectivity.
 
-## Getting Started
 
-To get started with AapDaSeva, follow these steps:
-
-1. Clone the repository:
-
-```bash
- git clone https://github.com/yourusername/AapDaSeva.git
- cd AapDaSeva
-## Firebase Configuration:
-
-2. Create a Firebase project at https://console.firebase.google.com/.
-3. Configure the Firebase SDK with your project settings.
-4. Add your Firebase configuration file (google-services.json for Android) to the app directory.
-5. Build and run the app on your Android device or emulator.
 
 ## Usage
 
@@ -54,6 +37,7 @@ To get started with AapDaSeva, follow these steps:
 2. List your agency or service, including contact details and areas of expertise.
 3. Respond to inquiries and messages from users.
 4. Participate in real-time chats with users.
+5. Having walkie-talkie like feature which will help in the fast communication in time of emenrgency.
 
 
 ## Real-time Chat
@@ -75,4 +59,4 @@ AapDaSeva takes security and privacy seriously. Here are some of the measures we
 3. Secure communication channels are used for chat and data transmission.
 4. Users have control over their data and can delete their accounts.
 5. Regular security audits and updates are performed to address vulnerabilities.
-```
+
